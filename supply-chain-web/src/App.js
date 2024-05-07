@@ -47,7 +47,7 @@ function App() {
     <div className="App">
       <h1>Supply Chain Management</h1>
       <AddProduct contract={contract} accounts={accounts} />
-      <ProductDetails contract={contract} />
+      <ProductDetails contract={contract} web3={web3} />
       <PlaceOrder contract={contract} accounts={accounts} />
       <UpdateShipment contract={contract} accounts={accounts} />
       <DeliverOrder contract={contract} accounts={accounts} />
